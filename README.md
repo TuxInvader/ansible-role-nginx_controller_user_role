@@ -52,7 +52,7 @@ To use this role you can create a playbook such as the following (let's name it 
       include_role:
         name: nginxinc.nginx_controller_user_role
       vars:
-        nginx_controller_user:
+        nginx_controller_user_role:
           metadata:
             name:  # the name of the user role
             displayName:   # a friendly display name for the user role (spaces and special characters allowed)
